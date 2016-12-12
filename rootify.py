@@ -51,7 +51,7 @@ def rootify(clean_cfg, outputCfg):
     print("""
 ===========================
     DONE!
-    Do not forget to grab your rooted file at {0}""").format(os.path.join(os.getcwd(), 'rooted_' + sys.argv[1]))
+    Do not forget to grab your rooted file at {0}""".format(os.path.join(os.getcwd(), 'rooted_' + sys.argv[1])))
     return 0
 
 
@@ -64,8 +64,8 @@ def run():
 
 
 if __name__ == "__main__":
-    print("""
-                     _   _  __ _
+    print('''
+                 _   _  __ _
                 | | (_)/ _(_)
  _ __ ___   ___ | |_ _| |_ _  ___ _ __
 | '__/ _ \ / _ \| __| |  _| |/ _ \ '__|
@@ -78,5 +78,5 @@ code is available at https://gitlab.com
 I now will try to open input config from {0} file,
 rootify it
 and then will print 'em to stdout and {1} file!
-""").format(sys.argv[1], 'rooted_' + sys.argv[1])
+'''.format(sys.argv[1], 'rooted_' + sys.argv[1]))
     run()
