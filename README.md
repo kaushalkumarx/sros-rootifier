@@ -129,4 +129,4 @@ For example this will produce erroneous output:
             exit
 ```
 # Author
-Roman Dodin [@noshut_ru](https://twitter.com/noshut_ru)
+Roman Dodin [@ntdvps](https://twitter.com/ntdvps)
